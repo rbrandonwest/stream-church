@@ -1,0 +1,40 @@
+{
+  "churches": [
+    {
+      "churchName": "Coral Ridge Presbyterian Church",
+      "zipcode": "33308",
+      "channelName": "CoralRidge",
+      "id": 1
+    },
+    {
+      "churchName": "Calvary Chapel Fort Lauderdale",
+      "zipcode": "33309",
+      "channelName": "CalvaryChapelFortLauderdale",
+      "id": 2
+    },
+    {
+      "churchName": "The Village Church",
+      "zipcode": "75028",
+      "channelName": "TheVillageChurchResources",
+      "id": 3
+    },
+    {
+      "churchName": "Redeemer Presbyterian Church",
+      "zipcode": "10024",
+      "channelName": "RedeemerEastSide",
+      "id": 4
+    },
+    {
+      "churchName": "Elevation Church",
+      "zipcode": "28105",
+      "channelName": "ElevationChurch",
+      "id": 5
+    },
+    {
+      "churchName": "VOUS Church",
+      "zipcode": "33127",
+      "channelName": "VOUSChurch",
+      "id": 6
+    }
+  ]
+}
