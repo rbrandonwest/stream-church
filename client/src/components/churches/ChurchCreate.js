@@ -32,8 +32,12 @@ class ChurchCreate extends React.Component {
         return (
             <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
                 <Field name="churchName" component={this.renderInput} label="Enter Church Name" />
-                <Field name="zipcode" component={this.renderInput} label="Enter Church Zip Code" />
+                <Field name="location" component={this.renderInput} label="Enter Church Location" />
+                <Field name="pastor" component={this.renderInput} label="Enter Lead Pastor" />
+                <Field name="description" component={this.renderInput} label="Enter a Description" />
+                <Field name="website" component={this.renderInput} label="Enter a Church Website" />
                 <Field name="channelName" component={this.renderInput} label="Enter Church Channel Name" />
+                <Field name="thumbnail" component={this.renderInput} label="Paste a Thumbnail Link" />
                 <button className="ui button primary">Submit</button>
             </form>
         )
@@ -47,12 +51,29 @@ const validate = (formValues) => {
         errors.churchName = 'You must enter a Church Name'
     }
 
-    if (!formValues.zipcode) {
-        errors.zipcode = 'You must enter a Church Zip Code'
+    if (!formValues.location) {
+        errors.location = 'You must enter a Church Location'
     }
+
+    if (!formValues.pastor) {
+        errors.location = 'You must enter a Lead Pastor'
+    }
+
+    if (!formValues.description) {
+        errors.location = 'You must enter a Church Description'
+    }
+
+    if (!formValues.website) {
+        errors.website = 'You must enter a Church Website'
+    }
+
 
     if (!formValues.channelName) {
         errors.channelName = 'You must enter a Church Channel Name'
+    }
+
+    if (!formValues.thumbnail) {
+        errors.thumbnail = 'You must enter a Thumbnail'
     }
 
     return errors

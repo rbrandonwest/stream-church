@@ -2,39 +2,103 @@
   "churches": [
     {
       "churchName": "Coral Ridge Presbyterian Church",
-      "zipcode": "33308",
+      "location": "Ft Lauderdale, FL",
+      "pastor": "Rob Pacienza",
+      "description": "Coral Ridge Presbyterian is a PCA church located in Fort Lauderdale, FL. Our vision is to be a Gospel-centered church that offers hope to South Florida through the reconciliation of people and the renewal of all things.",
+      "website": "crpc.org",
       "channelName": "CoralRidge",
+      "thumbnail": "https://i.pinimg.com/originals/9f/ca/db/9fcadb75af1863ef5e441a40e1377dfb.jpg",
       "id": 1
     },
     {
       "churchName": "Calvary Chapel Fort Lauderdale",
-      "zipcode": "33309",
+      "location": "Ft Lauderdale, FL",
+      "pastor": "Doug Sauder",
+      "description": "Calvary Chapel Fort Lauderdale is a vibrant group of people who love Jesus, one another, and the community we serve. We’re so glad you decided to visit our YouTube page, and hope your visit here encourages you to visit us in person and or join us online.",
+      "website": "calvaryftl.org",
       "channelName": "CalvaryChapelFortLauderdale",
+      "thumbnail": "https://www.gossipextra.com/wp-content/uploads/2017/11/Calvary_Chapel_Fort_Lauderdale.jpg",
       "id": 2
     },
     {
       "churchName": "The Village Church",
-      "zipcode": "75028",
+      "location": "Flower Mound, TX",
+      "pastor": "Matt Chandler",
+      "description": "We are a ministry of The Village Church that creates biblical, practical and creative discipleship resources that equip Christians to learn and live out the gospel in the everyday.",
+      "website": "thevillagechurch.net",
       "channelName": "TheVillageChurchResources",
+      "thumbnail": "https://www.rwb.net/wp-content/uploads/2019/08/Village_1.jpg",
       "id": 3
     },
     {
       "churchName": "Redeemer Presbyterian Church",
-      "zipcode": "10024",
+      "location": "New York, NY",
+      "pastor": "Abraham Cho",
+      "description": "Redeemer Presbyterian Church - East Side is dedicated to sharing the gospel and to the flourishing of NYC.",
+      "website": "eastside.redeemer.com",
       "channelName": "RedeemerEastSide",
+      "thumbnail": "https://www.worldreligionnews.com/wp-content/uploads/2016/04/150_West_83rd_Street.jpg",
       "id": 4
     },
     {
       "churchName": "Elevation Church",
-      "zipcode": "28105",
+      "location": "Charlotte, NC",
+      "pastor": "Steven Furtick",
+      "description": "Welcome to the official Elevation Church YouTube channel which features the latest sermons and preaching from Pastor Steven Furtick. Every week you can expect a message that strengthens your faith.",
+      "website": "elevationchurch.org",
       "channelName": "ElevationChurch",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/0c/ElevationBallantyne-CORE.jpg",
       "id": 5
     },
     {
       "churchName": "VOUS Church",
-      "zipcode": "33127",
+      "location": "Miami, FL",
+      "pastor": "Rich Wilkerson",
+      "description": "If you're looking for motivation, encouragement, and sermons from VOUS Church with pastors Rich & DawnCheré Wilkerson then you're in the right place! Subscribe to this channel so that you stay up to date on new content as soon as it's available. Thanks so much for joining us!",
+      "website": "vouschurch.com",
       "channelName": "VOUSChurch",
+      "thumbnail": "https://midtownvideo.com/wp-content/uploads/2017/01/vous4-1500.jpg",
       "id": 6
+    },
+    {
+      "churchName": "Lakewood Church",
+      "location": "Houston, TX",
+      "pastor": "Joel Osteen",
+      "description": "The vision Lakewood Church is to make a positive impact upon the city of Houston by creating a city-wide family center in which all are welcome-a place where all individuals and families can grow and flourish in faith and discover God's plan for their lives. ",
+      "website": "lakewoodchurch.com",
+      "channelName": "lakewoodchurch",
+      "thumbnail": "https://rbdg.com/wp-content/uploads/LakewoodGrandOpening.jpg",
+      "id": 7
+    },
+    {
+      "churchName": "Bethlehem Baptist Church",
+      "location": "Minneapolis, MN",
+      "pastor": "Steven Lee",
+      "description": "At Bethlehem, we want everything about us to declare that Jesus Christ is more desirable than all the pleasures of this world.",
+      "website": "bethlehem.church",
+      "channelName": "BethlehemBaptistChurch",
+      "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/V8oNlmghyVQQex_R6qgPuw/l.jpg",
+      "id": 8
+    },
+    {
+      "churchName": "Passion City Church",
+      "location": "Atlanta, GA",
+      "pastor": "Louie Giglio",
+      "description": "We are a Jesus church. A small tribe of His followers connected by our common faith and a deep desire to see our city [and the world] come to know His power and beauty. We call Atlanta and Washington D.C. home, but consider the world our neighborhood. We are not perfect. But Jesus is. Thankfully, we are a Jesus church.",
+      "website": "passioncitychurch.com",
+      "channelName": "PassionCityChurch",
+      "thumbnail": "https://j5h7w7h2.stackpathcdn.com/wp-content/uploads/2018/12/Passion-City-DC-3.jpg",
+      "id": 9
+    },
+    {
+      "churchName": "North Point Community Church",
+      "channelName": "NorthPointCommunityChurch",
+      "location": "Alpharetta, Georgia",
+      "pastor": "Andy Stanley",
+      "description": "Our mission is to inspire people to follow Jesus by engaging them in the life and mission of North Point Community Church.",
+      "website": "northpoint.org",
+      "thumbnail": "https://integratedinsight.com/wp-content/uploads/2020/07/northpoint-church.jpg",
+      "id": 10
     }
   ]
 }

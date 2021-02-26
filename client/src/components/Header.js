@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="ui secondary pointing menu">
             <Link to="/" className="item">
-                Church Streamer
+                <img src="../../images/logo.png" style={{width: '100px'}} />
             </Link>
             <div className="right menu">
                 <SearchBar />
