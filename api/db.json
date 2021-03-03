@@ -6,7 +6,9 @@
       "pastor": "Rob Pacienza",
       "description": "Coral Ridge Presbyterian is a PCA church located in Fort Lauderdale, FL. Our vision is to be a Gospel-centered church that offers hope to South Florida through the reconciliation of people and the renewal of all things.",
       "website": "crpc.org",
+      "denomination": "Presbyterian",
       "channelName": "CoralRidge",
+      "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
       "thumbnail": "https://i.pinimg.com/originals/9f/ca/db/9fcadb75af1863ef5e441a40e1377dfb.jpg",
       "id": 1
     },
@@ -16,7 +18,9 @@
       "pastor": "Doug Sauder",
       "description": "Calvary Chapel Fort Lauderdale is a vibrant group of people who love Jesus, one another, and the community we serve. We’re so glad you decided to visit our YouTube page, and hope your visit here encourages you to visit us in person and or join us online.",
       "website": "calvaryftl.org",
+      "denomination": "Non-Denominational",
       "channelName": "CalvaryChapelFortLauderdale",
+      "channelId": "UCfrLg-p1UBMlqyVXYvh2BQQ",
       "thumbnail": "https://www.gossipextra.com/wp-content/uploads/2017/11/Calvary_Chapel_Fort_Lauderdale.jpg",
       "id": 2
     },
@@ -26,7 +30,9 @@
       "pastor": "Matt Chandler",
       "description": "We are a ministry of The Village Church that creates biblical, practical and creative discipleship resources that equip Christians to learn and live out the gospel in the everyday.",
       "website": "thevillagechurch.net",
+      "denomination": "Southern Baptist Convention",
       "channelName": "TheVillageChurchResources",
+      "channelId": "UC5tzTmPEue1OMqkT9CIAP0g",
       "thumbnail": "https://www.rwb.net/wp-content/uploads/2019/08/Village_1.jpg",
       "id": 3
     },
@@ -36,7 +42,9 @@
       "pastor": "Abraham Cho",
       "description": "Redeemer Presbyterian Church - East Side is dedicated to sharing the gospel and to the flourishing of NYC.",
       "website": "eastside.redeemer.com",
+      "denomination": "Presbyterian",
       "channelName": "RedeemerEastSide",
+      "channelId": "UCTJb4v2LloSYP2LI3w_birQ",
       "thumbnail": "https://www.worldreligionnews.com/wp-content/uploads/2016/04/150_West_83rd_Street.jpg",
       "id": 4
     },
@@ -44,9 +52,11 @@
       "churchName": "Elevation Church",
       "location": "Charlotte, NC",
       "pastor": "Steven Furtick",
-      "description": "Welcome to the official Elevation Church YouTube channel which features the latest sermons and preaching from Pastor Steven Furtick. Every week you can expect a message that strengthens your faith.",
+      "description": "Welcome to the official Elevation Church which features the latest sermons and preaching from Pastor Steven Furtick. Every week you can expect a message that strengthens your faith.",
       "website": "elevationchurch.org",
+      "denomination": "Southern Baptist Convention",
       "channelName": "ElevationChurch",
+      "channelId": "UCIQqvZbHSwX0yKNVK1MyYjQ",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/0c/ElevationBallantyne-CORE.jpg",
       "id": 5
     },
@@ -56,7 +66,9 @@
       "pastor": "Rich Wilkerson",
       "description": "If you're looking for motivation, encouragement, and sermons from VOUS Church with pastors Rich & DawnCheré Wilkerson then you're in the right place! Subscribe to this channel so that you stay up to date on new content as soon as it's available. Thanks so much for joining us!",
       "website": "vouschurch.com",
+      "denomination": "",
       "channelName": "VOUSChurch",
+      "channelId": "UCZRjT2mSmOVE5ROt51ifIyg",
       "thumbnail": "https://midtownvideo.com/wp-content/uploads/2017/01/vous4-1500.jpg",
       "id": 6
     },
@@ -66,7 +78,9 @@
       "pastor": "Joel Osteen",
       "description": "The vision Lakewood Church is to make a positive impact upon the city of Houston by creating a city-wide family center in which all are welcome-a place where all individuals and families can grow and flourish in faith and discover God's plan for their lives. ",
       "website": "lakewoodchurch.com",
+      "denomination": "",
       "channelName": "lakewoodchurch",
+      "channelId": "UCyeFQrxS5HIfWCrL9o0FkuQ",
       "thumbnail": "https://rbdg.com/wp-content/uploads/LakewoodGrandOpening.jpg",
       "id": 7
     },
@@ -76,7 +90,9 @@
       "pastor": "Steven Lee",
       "description": "At Bethlehem, we want everything about us to declare that Jesus Christ is more desirable than all the pleasures of this world.",
       "website": "bethlehem.church",
+      "denomination": "",
       "channelName": "BethlehemBaptistChurch",
+      "channelId": "UCTlRz2v_W-CdeLYH70sdDhg",
       "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/V8oNlmghyVQQex_R6qgPuw/l.jpg",
       "id": 8
     },
@@ -86,19 +102,45 @@
       "pastor": "Louie Giglio",
       "description": "We are a Jesus church. A small tribe of His followers connected by our common faith and a deep desire to see our city [and the world] come to know His power and beauty. We call Atlanta and Washington D.C. home, but consider the world our neighborhood. We are not perfect. But Jesus is. Thankfully, we are a Jesus church.",
       "website": "passioncitychurch.com",
+      "denomination": "",
       "channelName": "PassionCityChurch",
+      "channelId": "UCzT4tQfAZEsm_yMql_10dpg",
       "thumbnail": "https://j5h7w7h2.stackpathcdn.com/wp-content/uploads/2018/12/Passion-City-DC-3.jpg",
       "id": 9
     },
     {
       "churchName": "North Point Community Church",
       "channelName": "NorthPointCommunityChurch",
+      "channelId": "",
       "location": "Alpharetta, Georgia",
       "pastor": "Andy Stanley",
       "description": "Our mission is to inspire people to follow Jesus by engaging them in the life and mission of North Point Community Church.",
       "website": "northpoint.org",
+      "denomination": "UCK-W_Hlq4a61XNfZl5VoNwA",
       "thumbnail": "https://integratedinsight.com/wp-content/uploads/2020/07/northpoint-church.jpg",
       "id": 10
+    },
+    {
+      "churchName": "Calvary Chapel Chattanooga",
+      "location": "Chattanooga, TN",
+      "pastor": "Frank Ramseur",
+      "channelId": "UCSt_D_oTMQxdEbQ5D6XmYrg",
+      "description": "Calvary Chapel Chattanooga is a fellowship of believers who love Jesus, each other, and the community we serve.",
+      "website": "calvarychatt.com",
+      "channelName": "CalvaryChapelChattanooga",
+      "thumbnail": "https://images.squarespace-cdn.com/content/v1/573b81c17c65e4fc649295bf/1464378187197-PNFY04X8JM693RFFHDF5/ke17ZwdGBToddI8pDm48kIO98Unw3smF9i2vwkBD4WZ7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vmYJsqzWGFgOZ-71CPh8Pco8owIfFar8TXo38twHYNHFZGjoBKy3azqku80C789l0lCvyAd1-5UQFnp8aARaJsXPNxrXere41uNoMtNYyJE7b4E5jA8sZuMX65qhkv4-iA/Calvary.1.jpg?format=2500w",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Brandon",
+      "lastName": "West",
+      "email": "rbrandonwest@gmail.com",
+      "location": "Ft Lauderdale, FL",
+      "avatar": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEPDhANDQ8PEA4NEA8ODw0PDQ8QEA8QFREWFhURExUYHSggGBolGxMTITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDisZHxkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAgQFAQMH/8QAMhABAQABAgIHBwMEAwAAAAAAAAECAxEEIQUxQVFhgbESIjJxcpHBQlKhktHw8TNigv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+qAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy1eIxx67z7pzoPUZ2pxuV+HafzXjdbK/qy+9gNcZE1cv3Zf1VLHic5+r77UGqKOHHX9Unzl2XZZec5zvgOgAAAAAAAAAAAAAAAAAAAOW7Te8pO11Q6Q1Ocw7JzvzBHieKuXLHlj39tVgUAAAAE9LVuN3xvl2VABraGtM5vPOdz0ZnBZ7ZydmXKtNAAAAAAAAAAAAAAAAAAAY+rn7WVy72pr3bDL6b6MkABQAAAAAB3DLay91lbLFbMQdAAAAAAAAAAAAAAAAAB5cR8GX01lNfVm+OU75fRkAAKAAAAAUAa2jfcx+nH0ZLX0Z7uP0z0QTAAAAAAAAAAAAAAAAABW47UuOM2u292t8mY0ukJ7k+qelZ2wA65soOO7ADiQCIkAju0uB1blLLd9qztmh0dj7tvfl+IgtgAAAAAAAAAAAAAAAAA8eKx3wy+W/25sts2bza9V5M3iuH9jba7y7+QPABQAAAAAAanCY7YY+M3+6lwvD+3vbdpNvNpSbTadU5IOgAAAAAAAAAAAAAAAAAK3HY74b/tsv4WXMpvNr1XkDGE9bSuF2vle+IKAAAAAJ6On7WUxnne6Av8FhthP+3NYck25TsdQAAAAAAAAAAAAAAAAAAAAU+kZyxvjYorvSN5Yz51SAAUAAFvo7ry+U9VRa6PvvWd8/KDQAAAAAAAAAAAAAAAAAABzKyc7dp30HVPX43blhPO/iGtxsnLDn43qUbd+feCWedyu+V3qIKAAAADuOVl3l2vfHAFzR429Wc38Z1/ZdlYy5ocb2Zz/1PzEF4Rwzlm8u88EgAAAAAAAAAABDU1JjN8r/AHqlqcbb8M2nfedBoPLU18cevKfKc6zc9XK9eVvnyQBc1OO/bPO/2Vc9S5c8raiAAKAAAAAAAAAAO45WXeWy+C1p8dZ8U38ZyqoINTT4nHLt2vdeT2YqWGpZ1Wz5UGwM7T43KfFtlPtV3R1pn1ec7YD0AAAAQ1c5jjcr2fymo9I5fDj5/wCfyCrqalyu9/14IgoAAAAAAAAAAAAAAAAAAAAO45WXecrHAGrw+r7eO/b1WeL1Z3AZbZ7funp/laKAAAz+kPjn0z1oAqgKAAAAAAAAAAAAAAAAAAAAAAPbgv8Akx8/StQEAAH/2Q==",
+      "userId": "112090412996801510985",
+      "id": 1
     }
   ]
 }

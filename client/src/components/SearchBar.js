@@ -8,7 +8,7 @@ const SearchBar = ({ onFormSubmit }) => {
 
         onFormSubmit(term)
     };
-
+    console.log(term);
     return (
         <div className="search-bar item">
             <form onSubmit={onSubmit} className="ui form search-bar">

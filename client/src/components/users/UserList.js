@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchChurches } from '../../actions'
+import { fetchUsers } from '../../actions'
 
-class ChurchList extends React.Component {
+class UserList extends React.Component {
     componentDidMount() {
-        this.props.fetchChurches();
+        this.props.fetchUsers();
     }
 
     // renderAdmin(church) {
@@ -16,17 +16,17 @@ class ChurchList extends React.Component {
 
     renderList() {
         if (this.props.isSignedIn) {
-        return this.props.churches.map(church => {
+        return this.props.users.map(user => {
             return (
-                <div className="item" key={church.id}>
+                <div className="item" key={user.id}>
                     <div className="right floated content">
-                        <Link className="ui button primary" to={`/churches/edit/${church.id}`}>Edit</Link>
+                        <Link className="ui button primary" to={`/users/edit/${user.id}`}>Edit</Link>
                         <button className="ui button negative">Delete</button>
                     </div>
 
-                    <div className="header">{church.churchName}</div>
-                    <div className="channelName" style={{color: 'gray', fontSize: '10px'}}>Channel Name: {church.channelName}</div>
-                    <div className="location">{church.zipcode}</div>
+                    <div className="header">{user.firstName}</div>
+                    <div className="lastName" style={{color: 'gray', fontSize: '10px'}}>{user.lastName}</div>
+                    <div className="location">{user.location}</div>
                 </div>
             )
         })
@@ -37,8 +37,8 @@ class ChurchList extends React.Component {
         if (this.props.isSignedIn) {
             return (
                 <div style={{ textAlign: 'right' }}>
-                    <Link to="/churches/new" className="ui button primary">
-                        Add Church
+                    <Link to="/users/new" className="ui button primary">
+                        Add User
                     </Link>
                 </div>
             )
@@ -48,7 +48,7 @@ class ChurchList extends React.Component {
     render() {
         return (
             <div>
-                <h2>Churches</h2>
+                <h2>Users</h2>
                 <div className="ui celled list">{this.renderList()}</div>
                 {this.renderCreate()}
             </div>
@@ -57,7 +57,7 @@ class ChurchList extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return { churches: Object.values(state.churches), currentUserId: state.auth.userId, isSignedIn: state.auth.isSignedIn }
+    return { users: Object.values(state.users), currentUserId: state.auth.userId, isSignedIn: state.auth.isSignedIn }
 }
 
-export default connect(mapStateToProps, { fetchChurches })(ChurchList);
+export default connect(mapStateToProps, { fetchUsers })(UserList);

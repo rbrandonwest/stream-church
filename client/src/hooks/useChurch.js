@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
 import youtube from '../apis/youtube';
 import churches from '../apis/churches'
+import { fetchChurch } from '../actions' 
 
-const useVideos = (channelId) => {
-    const [video, setVideo] = useState();
+const useChurch = ({ channelId }) => {
+    const [videoId, setVideoId] = useState();
 
     useEffect(() => {
         handleVideoFetch(channelId)
-    }, [channelId])
+    }, [])
 
-    const handleVideoFetch = async () => {
+    const handleVideoFetch = async channelId => {
+        console.log(channelId);
         const response = await youtube.get('/search', {
             params: {
                 channelId: channelId,
@@ -18,13 +20,15 @@ const useVideos = (channelId) => {
         })
 
         if (response.data.items.length > 0) {
-            setVideo(response.data.items[0].id.videoId)
+            setVideoId(response.data.items[0].id.videoId)
+            console.log(videoId);
         } else {
-            setVideo(null);
+            setVideoId(null);
+            console.log("Not live")
         }
     }
 
-    return [video, handleVideoFetch];
+    return [videoId];
 }
 
-export default useVideos;
+export default useChurch;

@@ -5,11 +5,11 @@ const Comments = () => {
 <div className="ui comments">
   <h3 className="ui dividing header">Comments</h3>
   <div className="comment">
-    <a className="avatar">
+    <a className="avatar" href="#">
       <img src="" />
     </a>
     <div className="content">
-      <a className="author">Matt</a>
+      <a className="author" href="#">Matt</a>
       <div className="metadata">
         <span className="date">Today at 5:42PM</span>
       </div>
@@ -17,16 +17,16 @@ const Comments = () => {
         How artistic!
       </div>
       <div className="actions">
-        <a className="reply">Reply</a>
+        <a className="reply" href="#">Reply</a>
       </div>
     </div>
   </div>
   <div className="comment">
-    <a className="avatar">
+    <a className="avatar" href="#">
       <img src="" />
     </a>
     <div className="content">
-      <a className="author">Elliot Fu</a>
+      <a className="author" href="#">Elliot Fu</a>
       <div className="metadata">
         <span className="date">Yesterday at 12:30AM</span>
       </div>
@@ -34,16 +34,16 @@ const Comments = () => {
         <p>This has been very useful for my research. Thanks as well!</p>
       </div>
       <div className="actions">
-        <a className="reply">Reply</a>
+        <a className="reply" href="#">Reply</a>
       </div>
     </div>
     <div className="comments">
       <div className="comment">
-        <a className="avatar">
+        <a className="avatar" href="#">
           <img src="" />
         </a>
         <div className="content">
-          <a className="author">Jenny Hess</a>
+          <a className="author" href="#">Jenny Hess</a>
           <div className="metadata">
             <span className="date">Just now</span>
           </div>
@@ -51,18 +51,18 @@ const Comments = () => {
             Elliot you are always so right :)
           </div>
           <div className="actions">
-            <a className="reply">Reply</a>
+            <a className="reply" href="#">Reply</a>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div className="comment">
-    <a className="avatar">
+    <a className="avatar" href="#">
       <img src="" />
     </a>
     <div className="content">
-      <a className="author">Joe Henderson</a>
+      <a className="author" href="#">Joe Henderson</a>
       <div className="metadata">
         <span className="date">5 days ago</span>
       </div>
@@ -70,7 +70,7 @@ const Comments = () => {
         Dude, this is awesome. Thanks so much
       </div>
       <div className="actions">
-        <a className="reply">Reply</a>
+        <a className="reply" href="#">Reply</a>
       </div>
     </div>
   </div>

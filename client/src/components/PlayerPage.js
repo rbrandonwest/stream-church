@@ -1,14 +1,52 @@
 import React, { useState, useEffect } from 'react';
-import { connect } from 'react-redux';
+import youtube from '../apis/youtube';
+import ReactPlayer from 'react-player';
+import { connect, useSelector } from 'react-redux';
 import Comments from './Comments'
 import { fetchChurch } from '../actions';
+import VidItem from './VidItem';
+import Testing from './Testing';
 
 
 class PlayerPage extends React.Component {
+    state = { videoId: '', channelId: '' }
 
     componentDidMount() {
-        this.props.fetchChurch(this.props.match.params.id);
+        this.props.fetchChurch(this.props.match.params.id)
+        // this.testStuff();
     }
+
+    // componentDidUpdate() {
+    //     this.handleVideoFetch(this.props.church.channelId)
+    // }
+
+    myChurchFetch = () => {
+        const response = this.props.fetchChurch(this.props.match.params.id);
+        this.setState({ channelId: response })
+    }
+
+    testStuff = () => {
+        console.log(this.props)
+    }
+
+    // handleVideoFetch = async (newId) => {
+    //     this.setState({ channelId: this.props.church.channelId})
+    //     console.log(this.state.channelId)
+    //     const response = await youtube.get('/search', {
+    //         params: {
+    //             channelId: newId,
+    //             eventType: 'live'
+    //         }
+    //     })
+    //     console.log(response);
+
+    //     if (response.data.items.length > 0) {
+    //         this.setState({ videoId: response.data.items[0].id.videoId })
+    //     } else {
+    //         console.log("Not live...")
+    //     }
+    // }
+
 
     render() {
         if (!this.props.church) {
@@ -21,10 +59,16 @@ class PlayerPage extends React.Component {
                         <div className="eleven wide column">
                             <div className="ui segment">
                                 <div className="ui embed">
-                                    <iframe title="video player" src="https://www.youtube.com/embed/pkJnyZvk1MM&ab_channel=CoralRidge" />
+                                    {/* <ReactPlayer
+                                        url={`https://www.youtube.com/embed/${this.state.videoId}`}
+                                        playing={true}
+                                        controls={true}
+                                    /> */}
+                                    <Testing channelId={this.props.church.channelId}/>
                                 </div>
                             </div>
                         </div>
+                        {/* <VidItem channelId={this.props.church.channelId} /> */}
                         <div className="five wide column">
                         <div className="ui">
                             <h2 className="ui header">{this.props.church.churchName}</h2>
@@ -46,7 +90,7 @@ class PlayerPage extends React.Component {
                             </div>
                         </div>
                         <div className="five wide column">
-                        
+
                         </div>
                     </div>
                 </div>
@@ -60,3 +104,17 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 export default connect(mapStateToProps, { fetchChurch })(PlayerPage);
+
+
+// const PlayerPage = () => {
+
+//     const [church, setChurch] = useState();
+//     const [videoId, setVideoId] = useState();
+//     const [channelId, setChannelId] = useState();
+
+
+
+// }
+
+// const myChurch = useSelector(fetchChurch(this.props.match.params.id));
+// console.log(myChurch);

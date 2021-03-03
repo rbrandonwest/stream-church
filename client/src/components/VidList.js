@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { fetchChurches } from '../actions'
 
@@ -13,7 +13,7 @@ class VidList extends React.Component {
             return (
                 <div className="ui card column">
                     <div className="image">
-                        <img src={church.thumbnail} style={{height: '200px'}}></img>
+                        <img src={church.thumbnail} alt="church photo" style={{height: '200px'}}></img>
                     </div>
                     <div className="content">
                         <a className="header" href={`/churches/${church.id}`}>{church.churchName}</a>

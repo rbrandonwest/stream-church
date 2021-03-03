@@ -1,6 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { signIn, signOut } from '../actions';
+import { fetchUser } from '../actions';
+import history from '../history';
+
 
 class GoogleAuth extends React.Component {
 
@@ -15,11 +18,30 @@ class GoogleAuth extends React.Component {
                 this.auth.isSignedIn.listen(this.onAuthChange);
             })
         });
+
+        // this.props.fetchUsers();
+
     }
+    
 
     onAuthChange = (isSignedIn) => {
         if (isSignedIn) {
             this.props.signIn(this.auth.currentUser.get().getId());
+            //Added
+            const fetchPromise = fetch(`http://localhost:3001/users/?userId=${this.auth.currentUser.get().getId()}`);
+            console.log(this.auth.currentUser.get().getId());
+            
+            fetchPromise
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length === 0) {
+                        console.log("NEW USER")
+                        history.push('/users/new')
+                    } else {
+                        console.log("EXISTING USER")
+                    }
+                }).then(console.log(this.props.fetchUser(`/?userId=${this.auth.currentUser.get().getId()}`)))
+                
         } else {
             this.props.signOut();
         }
@@ -67,4 +89,4 @@ const mapStateToProps = (state) => {
     return { isSignedIn: state.auth.isSignedIn }
 }
 
-export default connect(mapStateToProps, { signIn, signOut })(GoogleAuth);
+export default connect(mapStateToProps, { signIn, signOut, fetchUser })(GoogleAuth);
